@@ -23,7 +23,6 @@ export default function Downloads(){
                         </p>
                         <div className="grid lg:grid-cols-2 gap-4 my-6">
                             <a target='_blank' href="https://play.google.com/store/search?q=carrental&c=apps"><img className="transform hover:-translate-x-2 hover:-translate-y-2 transition duration-300 hover:shadow-xl" style={{cursor:"pointer"}} src={gplay} alt=""/></a>
-                            <a target='_blank' href="https://www.apple.com/in/search/carrental?src=globalnav"><img className="transform hover:-translate-x-2 hover:-translate-y-2 transition duration-300 hover:shadow-xl" style={{cursor:"pointer"}} src={appstore} alt=""/></a>
                         </div>
                     </div>
                 </div>

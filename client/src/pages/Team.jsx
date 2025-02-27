@@ -17,14 +17,14 @@ import LinearColor from '../Components/Bodycomponents/linearprogress';
 
 export default function Team(){
 
-    const members = [
-        {name: "Michael Diaz", role: "Salesman", image: diaz},
-        {name: "Caitlyn Hunt", role: "Business Owner", image: hunt},        
-        {name: "Lauren Rivera", role: "Photographer", image: lauren},
-        {name: "Martin Rizz", role: "Car Detailist", image: martin},
-        {name: "Brianna Ross", role: "Manager", image: ross},
-        {name: "Luke Miller", role: "Mechanic", image: luke}        
-    ]
+    // const members = [
+    //     {name: "Michael Diaz", role: "Salesman", image: diaz},
+    //     {name: "Caitlyn Hunt", role: "Business Owner", image: hunt},        
+    //     {name: "Lauren Rivera", role: "Photographer", image: lauren},
+    //     {name: "Martin Rizz", role: "Car Detailist", image: martin},
+    //     {name: "Brianna Ross", role: "Manager", image: ross},
+    //     {name: "Luke Miller", role: "Mechanic", image: luke}        
+    // ]
 
     const {user} = useContext(UserContext);
     const [checkUser, setCheckUser] = useState(false);

@@ -58,7 +58,7 @@ export default function Reservationbox({handleBookRideClick}){
                 <div className=""> 
                     <div className="grid grid-rows-1 border w-3/5 ml-20 ">
                         <div style={{cursor:"pointer"}}  className="bg-orange py-4 px-2 text-center  text-white font-sans font-bold text-2xl">
-                            $25 / rent per day
+                            RS.15000 / rent per day
                         </div>
                         <table style={{cursor:"pointer"}}  className="">
                             <thead>

@@ -1,6 +1,6 @@
 import React from 'react';
-import potter from "../images/potter.jpg";
-import weisley from "../images/weisley.jpg";
+import potter from "../images/adhul.jpg";
+import weisley from "../images/Arijith.jpg";
 
 
 
@@ -28,7 +28,7 @@ export default function Reviews(){
                                 The booking was easy and the rental rates were very affordable. "</h2>
                                 <div className="flex items-center">
                                     <img src={potter} alt="Your Image" className="w-16 h-16 rounded-full"/>
-                                    <span className="ml-4 font-bold text-xl">Parry Potter</span>
+                                    <span className="ml-4 font-bold text-xl">Adhul</span>
                                     <span className="ms-auto text-6xl font-mono text-orange">"</span>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@ export default function Reviews(){
                                 Highly recommend for this car rental website!"</h2>
                                 <div className="flex items-center">
                                     <img src={weisley} alt="Your Image" className="w-16 h-16 rounded-full"/>
-                                    <span className="ml-4 font-bold text-xl">Ron Reizley</span>
+                                    <span className="ml-4 font-bold text-xl">Arijith</span>
                                     <span className="ms-auto text-6xl font-mono text-orange">"</span>
                                 </div>
                             </div>
